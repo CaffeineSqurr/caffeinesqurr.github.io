@@ -1,0 +1,118 @@
+<!-- Author: Elliot Branson
+-->
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Elliot Branson / Projects / Carp Tracking</title>
+    <meta name="description" content="Elliot Branson Personal Site / Landing Page / Projects">
+    <meta name="author" content="Elliot Branson">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!--<script src="js/jquery-1.6.1.min.js"></script>-->
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <style type="text/css">
+        #about {
+            background: url(images/mn_bridge_day.jpg) 50% 0 fixed;
+            height: auto;
+            margin: 0 auto;
+            width: 100%;
+            position: relative;
+            box-shadow: 0 0 50px rgba(0,0,0,0.8);
+            padding: 100px 0;
+            background-size: cover;
+        }
+        #labs {
+            background: url(images/about.png) 50% 0 fixed;
+            margin: 0 auto;
+            width: 100%;
+            position: relative;
+            box-shadow: 0 0 50px rgba(0,0,0,0.8);
+            padding: 100px 0;
+            color: #fff;
+        }
+        #projects {
+            background: url(images/venice2_7.jpg) 50% 0 fixed;
+            height: auto;
+            margin: 0 auto;
+            width: 100%;
+            position: relative;
+            box-shadow: 0 0 50px rgba(0,0,0,0.8);
+            padding: 100px 0;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        #dark {
+            background: url(images/about.png) 50% 0 fixed;
+            height: auto;
+            margin: 0 auto;
+            width: 100%;
+            position: relative;
+            box-shadow: 0 0 50px rgba(0,0,0,0.8);
+            padding: 0px 0;
+            color: #fff;
+        }
+
+        a.lab-link:hover {
+            color:#E56717;
+            text-decoration: none;
+        }
+
+        .colspan3{height:300px;} .colspan4{height:350px;}
+
+        .hero-unit {
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            opacity:0.95;
+            filter:alpha(opacity=95); /* For IE8 and earlier */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="navbarMain" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+            <a class="brand" href="./index.html">Elliot Branson /<a><a class="brand" href="./index.html#projects">Projects /</a>
+            <ul id="navbarSubMain" class="nav">
+              <li><a href="quadrotor_vins.html">Quadrotor VINS</a></li>
+              <li><a href="visual_place_recognition.html">Visual Place Recognition</a></li>
+              <li><a href="binary_image_features.html">Binary Image Features</a></li>
+              <li class="active"><a href="#">Carp Tracking</a></li>
+              <li><a href="data_mules.html">Data Mules</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <section id="projects" data-speed="4" data-type="background">
+        <div class="container" >
+            <div class="page-header">
+                  <h2 style="color: #f5f5f5">Carp Tracking</h2>
+            </div>
+
+            <div class="row-fluid" style="padding-bottom:100px">
+                <div class="span4">
+                    <img class="img-rounded" src="./images/lavant.jpg">
+                </div>
+                <div class="span6 well">
+                    <p>I've worked with an interdisciplinary team from the RSN lab at the University of Minnesota Computer Science Department as well as partners from the Department of Fisheries, Wildlife, and Conservation Biology at the University of Minnesota, Johns Hopkins University, and Central State University in Ohio in a effort to detect, locate, track, and eliminate invasive Chinese carp.</p>
+
+                    <p>Preliminary work was carried out in local lakes and necessitated the creation of new algorithms to plan the search path for the robotic boats and wheeled robots. In the first phase of the planning the goal is to minimize the total path length while still covering the entire search region with the sensors. In the second stage, once a possible target was found new measurement locations are calculated such that each measurement results in the most information gain possible. A presentation about this project was given at IROS 2011 during the Robotics for Environmental Monitoring workshop under the name Aquatic and Land-based Robotic Telemetry for Tracking Invasive Fish.</p>
+
+                    <iframe width="495" height="315" src="http://www.youtube.com/embed/7ZTsCDZE0b8" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

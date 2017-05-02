@@ -1,0 +1,116 @@
+<!-- Author: Elliot Branson
+-->
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Elliot Branson / Projects / Binary Image Features</title>
+    <meta name="description" content="Elliot Branson Personal Site / Landing Page / Projects">
+    <meta name="author" content="Elliot Branson">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!--<script src="js/jquery-1.6.1.min.js"></script>-->
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <style type="text/css">
+        #about {
+            background: url(images/mn_bridge_day.jpg) 50% 0 fixed;
+            height: auto;
+            margin: 0 auto;
+            width: 100%;
+            position: relative;
+            box-shadow: 0 0 50px rgba(0,0,0,0.8);
+            padding: 100px 0;
+            background-size: cover;
+        }
+        #labs {
+            background: url(images/about.png) 50% 0 fixed;
+            margin: 0 auto;
+            width: 100%;
+            position: relative;
+            box-shadow: 0 0 50px rgba(0,0,0,0.8);
+            padding: 100px 0;
+            color: #fff;
+        }
+        #projects {
+            background: url(images/venice2_7.jpg) 50% 0 fixed;
+            height: auto;
+            margin: 0 auto;
+            width: 100%;
+            position: relative;
+            box-shadow: 0 0 50px rgba(0,0,0,0.8);
+            padding: 100px 0;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        #dark {
+            background: url(images/about.png) 50% 0 fixed;
+            height: auto;
+            margin: 0 auto;
+            width: 100%;
+            position: relative;
+            box-shadow: 0 0 50px rgba(0,0,0,0.8);
+            padding: 0px 0;
+            color: #fff;
+        }
+
+        a.lab-link:hover {
+            color:#E56717;
+            text-decoration: none;
+        }
+
+        .colspan3{height:300px;} .colspan4{height:350px;}
+
+        .hero-unit {
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            opacity:0.95;
+            filter:alpha(opacity=95); /* For IE8 and earlier */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="navbarMain" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+            <a class="brand" href="./index.html">Elliot Branson /<a><a class="brand" href="./index.html#projects">Projects /</a>
+            <ul id="navbarSubMain" class="nav">
+              <li><a href="quadrotor_vins.html">Quadrotor VINS</a></li>
+              <li><a href="visual_place_recognition.html">Visual Place Recognition</a></li>
+              <li class="active"><a href="#">Binary Image Features</a></li>
+              <li><a href="carp_tracking.html">Carp Tracking</a></li>
+              <li><a href="data_mules.html">Data Mules</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <section id="projects" data-speed="4" data-type="background">
+        <div class="container" >
+            <div class="page-header">
+                  <h2 style="color: #f5f5f5">Binary Image Features</h2>
+            </div>
+
+            <div class="row-fluid" style="padding-bottom:400px">
+                <div class="span5">
+                    <img class="img-responsive" src="./images/lena_combined4.png">
+                </div>
+                <div class="span6 well">
+                   <p>Humans are extremely well equipped to deal with processing and interpreting visual data. If you look at a picture of a room its obvious what you're looking at, your able to distinguish between the walls, floor, and a table. Computers cannot reason about an image in such an abstract way so we reduce images to mathematical concepts a computer can understand, points, lines, planes, etc. Points features are the most commonly used features in computer vision because of how simple they are to detect and how many of them are present in every image.</p>
+                    <p>Binary Features are computed by comparing the pixel values around a point of interest. This makes them very easy to compute and store because the descriptor is a collection of binary values. Using the Hamming Distance measure binary features can efficiently compared quickly with limited computing hardware. My work focuses on preserving the speed of comparisons while still adding additional information to the feature. We achieve this by encoding additional information gained from other sources (multiple images, extra sensors, geometric information, etc.) in a binary format and adding it to the features.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

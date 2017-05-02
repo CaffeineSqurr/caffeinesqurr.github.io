@@ -1,0 +1,117 @@
+<!-- Author: Elliot Branson
+-->
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Elliot Branson / Projects / Quadrotor VINS</title>
+    <meta name="description" content="Elliot Branson Personal Site / Landing Page / Projects">
+    <meta name="author" content="Elliot Branson">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!--<script src="js/jquery-1.6.1.min.js"></script>-->
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <style type="text/css">
+        #about {
+            background: url(images/mn_bridge_day.jpg) 50% 0 fixed;
+            height: auto;
+            margin: 0 auto;
+            width: 100%;
+            position: relative;
+            box-shadow: 0 0 50px rgba(0,0,0,0.8);
+            padding: 100px 0;
+            background-size: cover;
+        }
+        #labs {
+            background: url(images/about.png) 50% 0 fixed;
+            margin: 0 auto;
+            width: 100%;
+            position: relative;
+            box-shadow: 0 0 50px rgba(0,0,0,0.8);
+            padding: 100px 0;
+            color: #fff;
+        }
+        #projects {
+            background: url(images/venice2_7.jpg) 50% 0 fixed;
+            height: auto;
+            margin: 0 auto;
+            width: 100%;
+            position: relative;
+            box-shadow: 0 0 50px rgba(0,0,0,0.8);
+            padding: 100px 0;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        #dark {
+            background: url(images/about.png) 50% 0 fixed;
+            height: auto;
+            margin: 0 auto;
+            width: 100%;
+            position: relative;
+            box-shadow: 0 0 50px rgba(0,0,0,0.8);
+            padding: 0px 0;
+            color: #fff;
+        }
+
+        a.lab-link:hover {
+            color:#E56717;
+            text-decoration: none;
+        }
+
+        .colspan3{height:300px;} .colspan4{height:350px;}
+
+        .hero-unit {
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            opacity:0.95;
+            filter:alpha(opacity=95); /* For IE8 and earlier */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="navbarMain" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+            <a class="brand" href="./index.html">Elliot Branson /<a><a class="brand" href="./index.html#projects">Projects /</a>
+            <ul id="navbarSubMain" class="nav">
+              <li class="active"><a href="#">Quadrotor VINS</a></li>
+              <li><a href="visual_place_recognition.html">Visual Place Recognition</a></li>
+              <li><a href="binary_image_features.html">Binary Image Features</a></li>
+              <li><a href="carp_tracking.html">Carp Tracking</a></li>
+              <li><a href="data_mules.html">Data Mules</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <section id="projects" data-speed="4" data-type="background">
+        <div class="container" >
+            <div class="page-header">
+                  <h2 style="color: #f5f5f5">Quadrotor VINS</h2>
+            </div>
+
+            <div class="row-fluid" style="padding-bottom:100px">
+                <div class="span5">
+                    <img class="img-rounded" src="./images/drone.jpg">
+                </div>
+                <div class="span6 well">
+                    <p> Recent miniaturization in inertial measurement units (IMU) makes them perfect sensors for environments where GPS isn't present. Additionally IMU's are particularly suited for determining the 3D position of a fast moving vehicle executing dynamic maneuvers.</p>
+                    <p> VINS or vision-aided inertial navigation systems combine an IMU with a camera to reduce the errors induced by the integration of the IMU's bias and noise. We combine a VINS system with a cheap Parrot AR.Drone quad-rotor to demonstrate a real-time implementation on a low cost platform. This demonstration shows that we can precisely locate a fast moving vehicle operating in 3 dimensions without the use of GPS.</p>
+
+                    <iframe width="495" height="315" src="http://www.youtube.com/embed/QKGZcTFambE" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

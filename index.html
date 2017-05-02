@@ -1,0 +1,231 @@
+<!-- Author: Elliot Branson
+-->
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Elliot Branson</title>
+	<meta name="description" content="Elliot Branson Personal Site / Landing Page">
+	<meta name="author" content="Elliot Branson">
+
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="http://code.jquery.com/jquery.js"></script>
+	<!--<script src="js/jquery-1.6.1.min.js"></script>-->
+	<script src="js/bootstrap.min.js"></script>
+
+
+	<style type="text/css">
+		#about {
+			background: url(images/mn_bridge_day.jpg) 50% 0 fixed;
+			height: auto;
+			margin: 0 auto;
+		    width: 100%;
+		    position: relative;
+		    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		    padding: 100px 0;
+		    background-size: cover;
+		}
+		#labs {
+			background: url(images/about.png) 50% 0 fixed;
+			margin: 0 auto;
+		    width: 100%;
+		    position: relative;
+		    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		    padding: 100px 0;
+		    color: #fff;
+		}
+		#projects {
+			background: url(images/venice2_7.jpg) 50% 0 fixed;
+			height: auto;
+			margin: 0 auto;
+		    width: 100%;
+		    position: relative;
+		    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		    padding: 100px 0;
+		    background-size: cover;
+		}
+
+		#dark {
+			background: url(images/about.png) 50% 0 fixed;
+			height: auto;
+			margin: 0 auto;
+		    width: 100%;
+		    position: relative;
+		    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		    padding: 0px 0;
+		    color: #fff;
+		}
+
+		a.lab-link:hover {
+			color:#E56717;
+			text-decoration: none;
+		}
+
+		.colspan3{height:300px;} .colspan4{height:350px;}
+
+		.hero-unit {
+			background-color: #fff;
+		    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+		    opacity:0.95;
+			filter:alpha(opacity=95); /* For IE8 and earlier */
+		}
+	</style>
+</head>
+
+<body>
+
+	<div id="navbarMain" class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="navbar-inner">
+	  	<div class="container">
+		    <a class="brand" href="#">Elliot Branson /</a>
+		    <ul id="navbarSubMain" class="nav">
+		      <li><a href="#about">About Me</a></li>
+		      <li><a href="#labs">Labs</a></li>
+		      <li><a href="#projects">Projects</a></li>
+		      <li><a href="#papers">Papers</a></li>
+		      <li><a href="#contact">Contact Info</a></li>
+		    </ul>
+		</div>
+	  </div>
+	</div>
+
+	<!-- Section #1 about -->
+	<section id="about" data-speed="6" data-type="background">
+		<div class="container">
+			<div class="row-fluid">
+		        <div class="container span8">
+		          <h1 style="color:#f5f5f5">Elliot Branson</h1>
+        		  <p style="color:#E56717">Computer Science PhD. student with MARS Lab at the University of Minnesota</p>
+		        </div>
+	    	</div>
+	    	<div class="hero-unit">
+	    		<p>I'm interested in how technology can help people do what they
+	    			want with as little distraction as possible. Robotics has always been one aspect of
+	    			the intersection between computers and the physical world. In robotics the goal is not
+	    			only to sense the world but to interact with it.</p>
+
+	    		<p>I study robotic navigation, computer vision, and other estimation problems.
+	    			Away from computers I'm most likely to be found climbing, cooking, and traveling.</p>
+	    	</div>
+	    </div>
+	</section>
+
+	<!-- Section #2 labs -->
+	<section id="labs" data-speed="4" data-type="background">
+		<div class="container">
+			<div class="page-header">
+				<h1>Labs</h1>
+			</div>
+			<div class="row-fluid" style="padding:10px 0">
+				<div class="span3" >
+      				<img class="img-rounded" style="width:200px; height:130px" src="images/MARS.jpg">
+      			</div>
+     			<div class="media-body span8 pull-left">
+			        <a class="lab-link" href="http://mars.cs.umn.edu"><h4 class="media-heading">Multiple Autonomous Robotic Systems (MARS) Laboratory</h4></a>
+			        <p>The Multiple Autonomous Robotic Systems (MARS) Laboratory is a multi-disciplinary research lab at the University of Minnesota. The objective of the MARS Lab is to promote basic research and education in robotics and computer vision with special emphasis on estimation and control of autonomous ground, aerial, and space vehicles.
+			        </p>
+			        <p>Research is focused on Mobile robot localization, mapping, navigation, and tracking; Sensor Networks; Distributed Sensing and Control; Vision-aided Inertial Navigation; Structure from Motion; and Human-Robot Interaction.
+			        </p>
+     			</div>
+     		</div>
+     		<div class="row-fluid" style="padding:10px 0">
+     			<div class="span3">
+     				<img class="img-rounded pull-left" style="width:200px; height:107px" src="images/RSN.jpg">
+     			</div>
+     			<div class="media-body span8 pull-left">
+			        <a class="lab-link" href="http://rsn.cs.umn.edu"><h4 class="media-heading">Robotic Sensor Networks (RSN) Lab</h4></a>
+			        <p>The Robotic Sensor Networks Lab focuses on algorithmic and systems aspects of Robotic Sensor Networks (RSNs). Broadly speaking, an RSN is a network of devices equipped with sensing, communication and actuation capabilities. Designing algorithms for robotic sensor networks requires tackling challenging problems that lie at the intersection of robotics, perception and communication. Our group works on a broad set of RSN related problems ranging from theoretical problems such as Pursuit Evasion and Sensor Placement to developing systems in which robots act as Robotic Routers or Data Mules. In recent years, we have been focusing on Environmental Monitoring applications.
+			        </p>
+     			</div>
+	    	</div>
+	    </div>
+	</section>
+
+	<!-- Section #3 projects -->
+	<section id="projects" data-speed="4" data-type="background">
+		<div class="container">
+			<div class="page-header">
+		          <h2 style="color: #f5f5f5">Projects</h2>
+	    	</div>
+			<div class="row-fluid">
+		        <div class="span4 well colspan3">
+		          <h2>Quadrotor VINS</h2>
+		          <p>By combining a VINS (Vision-Aided Inertial Navigation System) with a cheap Parrot AR.Drone quad-rotor we are able to precisely locate a fast moving vehicle operating in three dimensions without a GPS.</p>
+		          <p><a class="btn btn-success" href="./quadrotor_vins.html">View details &raquo;</a></p>
+		        </div>
+		        <div class="span4 well colspan3">
+		          <h2>Visual Place Recognition</h2>
+		          <p>People are able to recognize places they've previously been from a single photograph. This project seeks to allow low cost devices equipped with a camera identify if/when they return to the same location in real time.</p>
+		          <p><a class="btn btn-success" href="./visual_place_recognition.html">View details &raquo;</a></p>
+		        </div>
+		        <div class="span4 well colspan3">
+		          <h2>Binary Image Features</h2>
+		          <p>The first step to enable computer programs to reason about images is to extract visual "features". With Binary Features we explore using features, which can be computed quickly and stored efficiently as a series of comparisons.</p>
+		          <p><a class="btn btn-success" href="./binary_image_features.html">View details &raquo;</a></p>
+		        </div>
+	    	</div>
+	    	<div class="row-fluid">
+		        <div class="span4 well colspan4">
+		          <h2>Carp Tracking</h2>
+		          <p>I've worked with an interdisciplinary team from the RSN lab at the University of Minnesota Computer Science Department as well as partners from the Department of Fisheries, Wildlife, and Conservation Biology at the University of Minnesota, Johns Hopkins University, and Central State University in Ohio in a effort to detect, locate, track, and eliminate invasive Chinese carp in Minnesota waterways.</p>
+		          <p><a class="btn btn-success" href="./carp_tracking.html">View details &raquo;</a></p>
+		        </div>
+		        <div class="span4 well colspan4">
+		          <h2>Data Mules</h2>
+		          <p>The field of wireless sensor networks has grown in recent years due to its ability to measure a diverse range of inputs. In some applications though it is impractical to completely cover the area, in these situations robots can act as intermediaries carrying the data between sensors. In this project we worked to answer fundamental questions about these hybrid robot sensor networks.</p>
+		          <p><a class="btn btn-success" href="./data_mules.html">View details &raquo;</a></p>
+		        </div>
+	    	</div>
+	    </div>
+	</section>
+
+		<!-- Section #4 papers & contact -->
+	<section id ="dark" data-speed="4" data-type="background">
+		<section id="papers" style="padding:100px 0">
+			<div class="container">
+				<div class="page-header">
+			          <h2>Papers</h2>
+		    	</div>
+				<ul class="unstyled">
+			        <li><h4>2012</h4>
+			        <ul>
+			            <li>P. Tokekar, E. Branson, J. Vander Hook, V. Isler Coverage and Active Localization for Monitoring Invasive Fish with an Autonomous Boat IEEE Robotics and Automation Magazine, 2012. <span class="label label-warning"><a href="./papers/Iram2012coverage.pdf" style="text-decoration: none">PDF</a></span></li>
+			            <li>J. Vander Hook, P. Tokekar, E. Branson, P. Bajer, P. Sorensen, V. Isler Local Search Strategy for Active Localization of Multiple Invasive Fish In Proc. International Symposium on Experimental Robotics, 2012. <span class="label label-warning"><a href="./papers/2012_ISER_Local_Search.pdf" style="text-decoration: none">PDF</a></span></li>
+			        </ul>
+			        </li>
+			        <li><h4>2011</h4>
+			        <ul>
+			            <li>E. Branson, V. Isler, P. Tokekar, and J. Vander Hook Aquatic and Land-based Robotic Telemetry for Tracking Invasive Fish In Proc. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'11), San Francisco, CA, Sep. 25-30 2011. <span class="label label-warning"><a href="./papers/WREM2011Branson_etal_Aquatic_and_Land-based_Robotic_Telemetry_for_Tracking_Invasive_Fish.pdf" style="text-decoration: none">PDF</a></span></li>
+			        </ul>
+			        </li>
+			    </ul>
+			</div>
+		</section>
+
+		<section id="contact" style="padding:100px 0">
+			<div class="container">
+				<div class="page-header">
+			          <h2>Contact</h2>
+		    	</div>
+				<div class="row-fluid">
+						<div class="span4" >
+						    <h3>Elliot Branson</h3>
+						    <address>
+						    B30 Walter Library - DTC</br>
+						    117 Plesant Street SE</br>
+						    Minneapolis, MN 55455</br>
+						    <abbr title="Phone">P:</abbr> (612) 625-2217</br>
+						    <a style="color:#E56717" href="mailto:ebranson@cs.umn.edu">ebranson@cs.umn.edu</a>
+						    </address>
+						</div>
+				        <div class="span7">
+							<iframe width="100%" height="300px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=117%2BPleasant%2BSt%2BSE%2C%2BMinneapolis%2C%2BMN&ie=UTF8&z=15&t=m&iwloc=near&output=embed"></iframe>
+						</div>
+				</div>
+			</div>
+		</section>
+	</section>
+
+</body>
+
+</html>
